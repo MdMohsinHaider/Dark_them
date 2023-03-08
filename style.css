@@ -1,0 +1,30 @@
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#000000;
+    --third-color:rgba(94, 92, 92, 0.137);
+}
+.dark-them{
+    --primary-color:#000000;
+    --secondary-color:#fff;
+}
+body{
+    /* background-color: var(--secondary-color); */
+    background-color: var(--primary-color);
+}
+#icon{
+    float: right;
+    height: 20px;
+    padding-right: 8px;
+    padding-top: 4px;
+}
+#ul{
+    background-color: var(--third-color);
+    border: solid var(--third-color);
+    border-radius: 4px;
+    height: 30px;
+}
+#color{
+    margin-top:33px;
+    height:33pc;
+    width:33pc;
+}
